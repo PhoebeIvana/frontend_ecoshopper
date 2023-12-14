@@ -3,9 +3,9 @@ package GUI;
 import javax.swing.*;
 
 /**
- * Represents the "About Us" page of the application (Singleton).
+ * Represents the account page of the application (Singleton).
  *
- * This class ensures that there's only one instance of the "About Us" page.
+ * This class ensures that there's only one instance of the account page.
  *
  * @author Edgrant Henderson Suryajaya
  */
@@ -18,9 +18,9 @@ public class AboutUsPage {
     }
 
     /**
-     * Gets the single instance of the "About Us" page.
+     * Gets the single instance of the account page.
      *
-     * @return The singleton instance of the "About Us" page.
+     * @return The singleton instance of the account page.
      */
     public static AboutUsPage getInstance() {
         if (instance == null) {
@@ -30,13 +30,13 @@ public class AboutUsPage {
     }
 
     /**
-     * Creates and returns the panel for the "About Us" page.
+     * Creates and returns the panel for the account page.
      *
-     * @return The JPanel representing the "About Us" page.
+     * @return The JPanel representing the account page.
      */
     public JPanel createPage() {
         JPanel panel = new JPanel();
-        // Add about us components here
+        // Add account page components here
         return panel;
     }
 }
